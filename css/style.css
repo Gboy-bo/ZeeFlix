@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #929292;
+    background-color: black;
+
+}
+
+header {
+    background-image: linear-gradient(rgb(255, 0, 0, 0.5), rgb(0, 0, 255, 0.3), rgb(255, 255, 255, 0.3)), url(../img/stranger-tings-4.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.container {
+    width: 1200px;
+    
+    margin: 0 auto;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+}
+.logo-text-red{
+    color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 40px;
+    position: relative;
+    top: 10px;
+   
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navigation-item{
+    margin-left: 25px; 
+ }
+ .nav-link{
+     text-decoration: none;
+     color: #fff;
+     font-weight: 400;
+     
+ }
+ .nav-link:hover{
+    background-color: red;
+ }
+ 
+.splash{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+}
+.splash-text-sm{
+    font-weight: 200;
+}
+.splash-text--big{
+    font-size: 60px;
+}
+.txt-green{
+    color: red;
+    font-size: 50px;
+}
+.txt-blue{
+    color:#fff;
+    font-size: 50px;
+}
+.btn-green{
+    background-color: rgb(38, 38, 248);
+    padding: 12px 36px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all .2s ease-in ;
+}
+
+.btn--green:hover{
+background-color: #fff;
+color: blue;
+cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.row > * {
+    margin-top: 20px;
+    max-width: 100%;
+    flex-shrink: 0;
+}
+.col {
+    flex: 1 0 0%;
+  }
+  
+  .col-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  
+  .col-3 {
+   width: 25%;
+    
+  }
+  
+  .col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  
+  .col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  h3{
+    padding-bottom: 50px;
+  }
+  section{
+    padding-top: 80px;
+  }
+  .movie{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .3s;
+  }
+  .movie_trailer iframe{
+    border: 3px solid red;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .movie:hover{
+    background-color: #fff
+  }
+  .movie_details{
+    margin-top: 40px;
+  }
+  .movie_info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .movie_year{
+
+  }
+  .movie_age{
+    border:1px solid red;
+  }
+  .movie_details h4{
+    color:red;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .movie_details p{
+    font-size: 14px;
+  }
+  footer{
+    background-color: white;
+    
+  }
+  .container h3{
+    font-size: 40px;
+    font-weight: 100;
+    color: red;
+  }
+  footer{
+    color: rgb(0, 0, 0);
+    margin-top: 80px;
+}
+.footer__top{
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+.footer__logo--icon{
+    font-size: 30px;
+}
+.footer__logo--text{
+    font-size: 20px;
+}
+.footer__nav{
+    list-style: none;
+}
+.footer-nav-item{
+    margin-bottom: 20px;
+}
+.footer-nav-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.green-text{
+    color: #505050;
+}
+
+.footer-bottom{
+    background-color: #ebebeb;
+    padding: 25px 0;
+    color: #3a3a3a;
+}
+.footer-bottom-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-contact{
+    display: flex;
+}
+.social-media{
+    margin-left: 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+.social-media a{
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 2px;
+    border-radius: 100px;
+    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cd1c0d;
+}
+.social--icon{
+    background-color: #fff;
+    display: inline-block;
+}
+.email-link{
+    color: #cd1c0d;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid__item--2{
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+}
+.grid__item--3{
+    width: calc(100% / 3 - 20px);
+
+    margin: 10px;
+}
+.grid__item--4{
+    width: calc(100% / 4 - 20px);
+    margin: 10px;
+}
+.grid__item--5{
+    width: calc(100% / 5 - 20px);
+    margin: 10px;
+}
+.logo__text--red{
+    color: red;
+}
+.footer-bottom-wrapper{
+    margin: 0 30px;
+}
+
