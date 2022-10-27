@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <title>Zeeflix</title>
     <!--FONTS Poppins-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,10 +16,11 @@
 
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
-    <header class="home-header">
+    <header class="home-header" id="home">
         <div class="container">
             <nav>
                 <div class="logo">
@@ -27,19 +29,19 @@
                 </div>
                 <ul class="navigation">
                     <li class="navigation-item">
-                        <a href="" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="navigation-item">
-                        <a href="" class="nav-link">Series</a>
+                        <a href="#" class="nav-link">Series</a>
                     </li>
                     <li class="navigation-item">
-                        <a href="" class="nav-link">Movies</a>
+                        <a href="#movies" class="nav-link">Movies</a>
                     </li>
                     <li class="navigation-item">
-                        <a href="" class="nav-link">About</a>
+                        <a href="#footer" class="nav-link">About</a>
                     </li>
                     <li class="navigation-item">
-                        <a href="" class="nav-link">Contact Us</a>
+                        <a href="#" class="nav-link">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -58,7 +60,7 @@
         </div>
 
     </header>
-    <section>
+    <section id="movies">
         <div class="container">
             <h3>Movie list</h3>
             <div class="row">
@@ -140,52 +142,52 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer"id="footer">
         <div class="footer__top">
           <div class="container">
             <div class="grid">
-              <div class="grid__item--4">
+              <div class="col-3">
                 <div class="logo">
                     <!-- <img class="logo__img" src="./img/logo.png" alt="Website logo"> -->
                     <span class="logo__text logo--footer">Zee<span class="logo__text--red">Flix</span></span>
                 </div>
               </div>
-              <div class="grid__item--4">
+              <div class="col-3">
                 <ul class="footer__nav">
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">Platform</a>
+                    <a class="footer-nav-link" href="https://gboybo.netlify.app/">Platform</a>
                   </li>
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">Help Center</a>
+                    <a class="footer-nav-link" href="#">Help Center</a>
                   </li>
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">Security</a>
+                    <a class="footer-nav-link" href="#">Security</a>
                   </li>
                 </ul>
               </div>
-              <div class="grid__item--4">
+              <div class="col-3">
                 <ul class="footer__nav">
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">Customers</a>
+                    <a class="footer-nav-link" href="#">Customers</a>
                   </li>
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">Use Cases</a>
+                    <a class="footer-nav-link" href="#">Use Cases</a>
                   </li>
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">Customer Stories</a>
+                    <a class="footer-nav-link" href="#">Customer Stories</a>
                   </li>
                 </ul>
               </div>
-              <div class="grid__item--4">
+              <div class="col-3">
                 <ul class="footer__nav">
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">Company</a>
+                    <a class="footer-nav-link" href="https://gboybo.netlify.app/">Company</a>
                   </li>
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">About</a>
+                    <a class="footer-nav-link" href="https://gboybo.netlify.app/">About</a>
                   </li>
                   <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="">Careers<span class="green-text">-We're hiring!</span></a>
+                    <a class="footer-nav-link" href="#">Careers<span class="green-text">-We're hiring!</span></a>
                   </li>
                 </ul>
               </div>

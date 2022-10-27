@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Poppins', sans-serif;
     color: #929292;
@@ -19,9 +22,9 @@ header {
 }
 
 .container {
-    width: 1200px;
-    
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 .logo{
     font-size: 30px;
@@ -33,11 +36,12 @@ header {
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(74, 74, 74);
     padding: 10px 40px;
-    position: relative;
-    top: 10px;
-   
+    position: fixed;
+    top: 40px;
+    z-index: 9999;
+    width: calc(100% - 80px);
 }
 .navigation{
     display: flex;
@@ -61,12 +65,14 @@ nav{
     position: absolute;
     top: 50%;
     color: #fff;
+    transform: translateY(-50%);
 }
 .splash-text-sm{
     font-weight: 200;
 }
-.splash-text--big{
+.splash-text-big{
     font-size: 60px;
+    margin-bottom: 50px;
 }
 .txt-green{
     color: red;
