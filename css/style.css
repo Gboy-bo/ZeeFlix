@@ -41,7 +41,9 @@ nav{
     position: fixed;
     top: 40px;
     z-index: 9999;
-    width: calc(100% - 80px);
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 .navigation{
     display: flex;
